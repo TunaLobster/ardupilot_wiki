@@ -120,6 +120,20 @@ parser.add_argument(
     default=True,
     help="show debugging output",
 )
+parser.add_argument(
+    '--latexpdf',
+    dest='latexpdf',
+    action='store_true',
+    default=False,
+    help="output pdf using pdflatex"
+)
+parser.add_argument(
+    '--no-html',
+    dest='no_html',
+    action='store_true',
+    default=False,
+    help="disable html output"
+)
 
 args = parser.parse_args()
 # print(args.site)
@@ -214,7 +228,10 @@ def build_one(wiki):
     '''build one wiki'''
     print('make and clean: %s' % wiki)
     subprocess.check_call(["nice", "make", "clean"], cwd=wiki)
-    subprocess.check_call(["nice", "make", "html"], cwd=wiki)
+    if not args.no_html:
+        subprocess.check_call(["nice", "make", "html"], cwd=wiki)
+    if args.latexpdf:
+        subprocess.check_call(["nice", "make", "latexpdf"], cwd=wiki)
 
 
 def sphinx_make(site):

@@ -43,7 +43,7 @@ extensions = [
     'sphinx.ext.imgmath',
     'sphinx.ext.ifconfig',
     'sphinxcontrib.youtube', #For youtube embedding
-    'sphinxcontrib.vimeo', #For vimeo embedding
+    # 'sphinxcontrib.vimeo', #For vimeo embedding
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -246,7 +246,7 @@ latex_elements = {
 #'pointsize': '10pt',
 
 # Additional stuff for the LaTeX preamble.
-#'preamble': '',
+'preamble': r'\usepackage{CJK}',
 
 # Latex figure (float) alignment
 #'figure_align': 'htbp',

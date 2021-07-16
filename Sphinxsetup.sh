@@ -44,6 +44,6 @@ python3 -m pip install --user --upgrade git+https://github.com/ArduPilot/sphinx_
 python3 -m pip install --user --upgrade git+https://github.com/sphinx-contrib/youtube.git
 
 # and a vimeo plugin:
-python3 -m pip install --user --upgrade git+https://github.com/ArduPilot/sphinxcontrib.vimeo.git
+# python3 -m pip install --user --upgrade git+https://github.com/ArduPilot/sphinxcontrib.vimeo.git
 
 echo "Setup completed successfully!"
