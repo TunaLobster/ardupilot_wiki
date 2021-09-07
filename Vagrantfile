@@ -10,6 +10,18 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # default to focal for bulding the Wiki:
   config.vm.box = "ubuntu/focal"
 
+  # 16.04 LTS EOL April 2021
+  config.vm.define "xenial", autostart: false do |xenial|
+    xenial.vm.box = "ubuntu/xenial64"
+    xenial.vm.provider "virtualbox" do |vb|
+        vb.name = "ArduPilot_wiki (xenial)"
+    end
+    xenial.vm.provision "shell", path: "./scripts/initvagrant.sh"
+    xenial.vm.provider "virtualbox" do |vb|
+        vb.customize ["modifyvm", :id, "--memory", "2048"]
+    end
+  end
+
   # 18.04 LTS EOL April 2023
   config.vm.define "bionic", autostart: false do |bionic|
     bionic.vm.box = "ubuntu/bionic64"
