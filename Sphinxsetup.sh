@@ -44,19 +44,7 @@ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python3 get-pip.py
 rm -f get-pip.py
 
-# Install sphinx
-python3 -m pip install --upgrade sphinx==1.8.5
-
-# lxml for parameter parsing:
-python3 -m pip install --upgrade lxml
-
-# Install sphinx theme from ArduPilot repository
-python3 -m pip install --upgrade git+https://github.com/ArduPilot/sphinx_rtd_theme.git
-
-# and a youtube plugin:
-python3 -m pip install --upgrade git+https://github.com/sphinx-contrib/youtube.git
-
-# and a vimeo plugin:
-python3 -m pip install --upgrade git+https://github.com/ArduPilot/sphinxcontrib.vimeo.git
+# Install sphinx, lxml for parameter parsing, ArduPilot sphinx theme, a youtube plugin, and a vimeo plugin
+python3 -m pip install sphinx==1.8.5 lxml sphinxcontrib-youtube git+https://github.com/ArduPilot/sphinx_rtd_theme.git git+https://github.com/ArduPilot/sphinxcontrib.vimeo.git
 
 echo "Setup completed successfully!"
