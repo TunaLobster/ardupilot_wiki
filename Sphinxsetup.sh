@@ -45,6 +45,6 @@ python3 get-pip.py
 rm -f get-pip.py
 
 # Install sphinx, lxml for parameter parsing, ArduPilot sphinx theme, a youtube plugin, and a vimeo plugin
-python3 -m pip install sphinx==1.8.5 lxml sphinxcontrib-youtube git+https://github.com/ArduPilot/sphinx_rtd_theme.git git+https://github.com/ArduPilot/sphinxcontrib.vimeo.git
+python3 -m pip install sphinx==1.8.5 lxml sphinxcontrib-youtube git+https://github.com/ArduPilot/sphinx_rtd_theme.git@bd7dc2b469a3d189dcd4bb5600fecf38970b885d git+https://github.com/ArduPilot/sphinxcontrib.vimeo.git
 
 echo "Setup completed successfully!"
