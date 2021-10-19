@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!env/ardupilot_wiki_env/bin/python || echo "Ardupilot Wiki Python venv has not been created. Please run ./Sphinxsetup.sh to update the build environment"
 # -*- coding: utf-8 -*-
 """
 
@@ -753,9 +753,13 @@ def is_venv():
 
 #######################################################################
 
-# Check if running in the correct venv
+# Check if venv exists, should be created by Sphinxsetup.sh
+if not os.path.exists(os.path.join(os.getcwd(),'env','ardupilot_wiki_env','bin','python')):
+    raise Exception("Ardupilot Wiki Python venv has not been created. Please run ./Sphinxsetup.sh to update the build environment")
+
+# Check if running in the correct venv, should be starting by the shebang
 if not is_venv():
-    raise Exception("Please activate the venv. Run \"source env/ardupilot_wiki_env/bin/activate\" then try building the wiki again. Exit the venv with \"deactivate\".")
+    raise Exception("Please activate the Ardupilot Wiki Python venv. Run \"/.update.py\" to use the shebang OR run \"source env/ardupilot_wiki_env/bin/activate\" then try building the wiki again. Exit the venv with \"deactivate\" command.")
 
 now = datetime.now()
 building_time = now.strftime("%Y-%m-%d-%H-%M-%S")
