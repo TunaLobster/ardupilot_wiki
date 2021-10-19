@@ -1,4 +1,4 @@
-#!env/ardupilot_wiki_env/bin/python || echo "Ardupilot Wiki Python venv has not been created. Please run ./Sphinxsetup.sh to update the build environment"
+#!env/ardupilot_wiki_env/bin/python
 # -*- coding: utf-8 -*-
 """
 
