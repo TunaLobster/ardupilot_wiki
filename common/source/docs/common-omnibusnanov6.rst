@@ -163,7 +163,7 @@ Usually these boards are sold pre-flashed with Betaflight / iNav firmwares. In o
 First time flashing
 -------------------
 
-Follow the instructions `here <https://ardupilot.org/plane/docs/common-loading-firmware-onto-chibios-only-boards.html>`__ using the "arduXXX_with_bl.hex" file for the "OmnibusNanoV6" target.
+Follow the instructions :ref:`here <common-loading-firmware-onto-chibios-only-boards>` using the "arduXXX_with_bl.hex" file for the "OmnibusNanoV6" target.
 
 When instructed to enter DFU mode, locate the DFU button / jumper pads and keep the button pressed / jumper pads shorted while connecting the board to your computer via USB. If done successfully, the red power LED should light solid while the blue activity LED should not light at all.
 
@@ -173,7 +173,7 @@ When instructed to enter DFU mode, locate the DFU button / jumper pads and keep 
 Subsequent firmware updates
 ---------------------------
 
-Follow the instructions `here <https://ardupilot.org/plane/docs/common-loading-firmware-onto-pixhawk.html>`__ but choose "Load Custom Firmware" and browse to the respective "arduXXX.apj" file for the "OmnibusNanoV6" target, or your own .apj file if building your own firmware.
+Follow the instructions :ref:`here <common-loading-firmware-onto-pixhawk>` but choose "Load Custom Firmware" and browse to the respective "arduXXX.apj" file for the "OmnibusNanoV6" target, or your own .apj file if building your own firmware.
 
 .. image:: ../../../images/openpilot-revo-mini-load-firmware.png
     :target: ../_images/openpilot-revo-mini-load-firmware.png
@@ -183,6 +183,6 @@ Compile ArduPilot
 -----------------
 
 To build your own firmware, see the instructions on setting up a build environment and compiling the source code:
-`Building the Code <https://ardupilot.org/dev/docs/building-the-code.html>`__
+:ref:`Building the Code <dev:building-the-code>`
 
 [copywiki destination="plane,copter,rover,blimp"]

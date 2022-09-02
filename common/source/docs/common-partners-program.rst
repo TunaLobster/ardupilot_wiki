@@ -74,7 +74,7 @@ You will receive a reply within a couple of days. After that the steps
 are:
 
  - you will receive a link to a form to fill in giving details of your application
- - you will need to agree to abide by the `ArduPilot Code of Conduct <https://ardupilot.org/dev/docs/developer-code-of-conduct.html>`__
+ - you will need to agree to abide by the :ref:`ArduPilot Code of Conduct <dev:developer-code-of-conduct>`
  - you will need to make a payment of a minimum of US$1000. For larger companies we strongly encourage larger contributions, with typical amounts of $5000 to $10000 for companies that rely on ArduPilot for their business. Details of payment methods are given below
  - you will need to send a logo to put on our website, unless you specifically ask not to be included in the public list of partners
  - once payment is received we will create the private support channel for your company (on `discord <https://ardupilot.org/discord>`__ or skype) and add you to the partners list

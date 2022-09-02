@@ -3,7 +3,7 @@
 Refining Calibration Parameters using a Flight Log
 ==================================================
 
-The compass offsets, scales, diagonals, and even motor compensation can be determined from a flight dataflash log of the vehicle using the magfit_WMM.py utility. This utility is installed when the `build/sim environment <https://ardupilot.org/dev/docs/building-the-code.html>`_ has been installed on your PC, either Linux or Windows.
+The compass offsets, scales, diagonals, and even motor compensation can be determined from a flight dataflash log of the vehicle using the magfit_WMM.py utility. This utility is installed when the :ref:`build/sim environment <dev:building-the-code>` has been installed on your PC, either Linux or Windows.
 
 The image below shows the results of a run on a log file for a single compass plane.
 

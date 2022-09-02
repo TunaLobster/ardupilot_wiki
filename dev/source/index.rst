@@ -41,7 +41,7 @@ The :ref:`Autopilot Hardware Options <common-autopilots>` page provides an overv
 :ref:`Pixhawk <common-pixhawk-overview>`, :ref:`The Cube <common-thecube-overview>`,
 :ref:`Pixracer <common-pixracer-overview>`, :ref:`NAVIO2 <common-navio2-overview>`, :ref:`Bebop2 <copter:parrot-bebop-autopilot>`, etc.
 
-To get going quickly please consider purchasing one of the :ref:`ready-to-fly vehicles <common-rtf>` including the very low-cost `SkyRocket/SkyViper drone <https://ardupilot.org/copter/docs/skyrocket.html>`__.
+To get going quickly please consider purchasing one of the :ref:`ready-to-fly vehicles <common-rtf>` including the very low-cost :ref:`SkyRocket/SkyViper drone <copter:skyrocket>`.
 
 The ArduPilot source code includes the `AP-HAL <https://github.com/ArduPilot/ardupilot/tree/master/libraries/AP_HAL>`__
 Hardware Abstraction Layer, making it relatively easy to port the code to a

@@ -88,17 +88,17 @@ First the amount of FF term can be determined by analyzing the data log after th
 #. .345\*PIDR.Act\*AETR.SS  (this uses 0.345, the default, for the proposed :ref:`RLL_RATE_FF<RLL_RATE_FF>` term as a starting point). This is taking the total output from the PID controller, which results in the surface deflection in the next graph, as a proposed feedforward.
 #.  AETR.Ail*0.01
 
-here is an example plot using `UAV LogViwer online <https://ardupilot.org/plane/docs/common-uavlogviewer.html>`__.
+Here is an example plot using :ref:`UAV LogViwer online <common-uavlogviewer>`.
 
 .. image:: ../../../images/ff1.png
 
-you can see that the second curve exceeds the third, indicating that the FF term (0.345 used in the first curve) is too high....re-plotting the same data with the first curve multiplied by a lower FF proposal of 0.11:
+You can see that the second curve exceeds the third, indicating that the FF term (0.345 used in the first curve) is too high....re-plotting the same data with the first curve multiplied by a lower FF proposal of 0.11:
 
 - .11*PIDR.Act*AETR.SS (.11 was the actual FF gain result of an Autotune done later)
 
 .. image:: ../../../images/ff2.png
 
-you can see that the two curves match in magnitude, indicating that the FF term should be .11.
+You can see that the two curves match in magnitude, indicating that the FF term should be .11.
 
 This technique works in all cases since FF is an open loop gain and we are just determining how much surface deflection results from how much output in the PID controller. This is then used to make the FF gain basically create the baseline control surface deflection.
 

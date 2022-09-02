@@ -11,7 +11,7 @@ If you just want to fly you may instead choose to use a GCS running on a mobile 
 
 Installation links for some of the more popular GCS systems are provided below:
 
-- :ref:`Mission Planner <planner:home>` (Windows, Linux, Android): :ref:`Install Mission Planner <planner:install-mission-planner>` This GCS is the most compatible and closely tracks new features and updates in ArduPilot. It is recommended for first-time users and power users alike.  It functions best in the Windows environment.
+- :ref:`Mission Planner <planner:home>` (Windows, Linux, Android): :ref:`Install Mission Planner <planner:mission-planner-installation>` This GCS is the most compatible and closely tracks new features and updates in ArduPilot. It is recommended for first-time users and power users alike.  It functions best in the Windows environment.
 
 - `QGroundControl <http://qgroundcontrol.com/>`__ (Windows, Mac OS X, Linux, Android and iOS).This is the most popular GCS for Android based systems and provides the best presentation on small format devices like cellphones. Does not have all the capabilities of Mission Planner, but has a more user-friendly interface for some functions. Operates well on all platforms
 

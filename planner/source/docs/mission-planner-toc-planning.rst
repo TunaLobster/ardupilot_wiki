@@ -30,7 +30,7 @@ emphasize the major topics and sub topics.)**
    these pages
 
    -  **Windows Installer**
-      ( :ref:`install mission planner <planner:install-mission-planner>` )
+      ( :ref:`install mission planner <planner:mission-planner-installation>` )
    -  **Advanced Installation**
       (:ref:`mission-planner-advanced-installation <mission-planner-advanced-installation>`) New
       8/7/13. ready to add to TOC (Not a common page)

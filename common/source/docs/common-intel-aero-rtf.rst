@@ -11,7 +11,7 @@ The `Intel Aero RTF vehicle <https://software.intel.com/en-us/aero/drone-kit>`__
 `Vision Accessory Kit <https://software.intel.com/en-us/aero/vision-kit>`__ and a `Spektrum DXe transmitter <http://spektrumrc.com/Products/Default.aspx?ProdId=SPM1000>`__.
 
 Within the vehicle is an STM32F427V autopilot board which can run ArduPilot (replacing the pre-loaded non-ArduPilot software).
-In this way, the higher powered :ref:`Intel Aero compute board <common-intel-aero-overview>` is used as a `companion computer <https://ardupilot.org/dev/docs/companion-computers.html>`__.
+In this way, the higher powered :ref:`Intel Aero compute board <common-intel-aero-overview>` is used as a :ref:`companion computer <dev:companion-computers>`.
 
 ..  youtube:: DZm9S0lxiEg
     :width: 100%

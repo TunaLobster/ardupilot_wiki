@@ -1,4 +1,4 @@
-.. _install-mission-planner:
+.. _mission-planner-installation:
 
 ==========================
 Installing Mission Planner

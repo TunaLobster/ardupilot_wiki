@@ -1,4 +1,4 @@
-.. _common-uavlogviewer.rst:
+.. _common-uavlogviewer:
 
 =============
 UAV LogViewer
@@ -42,7 +42,7 @@ Plot Options
 .. image:: ../../../images/logviewer-plot-example1.png
      :target: ../_images/logviewer-plot-example1.png
 
-This is one of the most powerful features of the viewer. This allows you to select which log values are plotted. You can search for an individual field to  plot, eg for CTUN.NavRoll you would type "Nav") or just navigate thru to the message with that field. Here we have plotted CTUN.NavRoll, CTUN.Roll,CTUN.NavPitch, and CTUN.Pitch.The Navigation controller's desired roll and pitch versu actual. ( For a complete list of log messages, see: `Copter Log Messages <https://ardupilot.org/copter/docs/logmessages.html>`__ , `Plane Log Messages <https://ardupilot.org/plane/docs/logmessages.html>`__ , or `Rover Log Messages <https://ardupilot.org/rover/docs/logmessages.html>`__ ).
+This is one of the most powerful features of the viewer. This allows you to select which log values are plotted. You can search for an individual field to plot, eg for CTUN.NavRoll you would type "Nav" or just navigate thru to the message with that field. Here we have plotted CTUN.NavRoll, CTUN.Roll, CTUN.NavPitch, and CTUN.Pitch.The Navigation controller's desired roll and pitch versus actual. For a complete list of log messages, see: :ref:`Copter Log Messages <copter:logmessages>`, :ref:`Plane Log Messages <plane:logmessages>`, or :ref:`Rover Log Messages <rover:logmessages>`.
 
 Presets
 -------

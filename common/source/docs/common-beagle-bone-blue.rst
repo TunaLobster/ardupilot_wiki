@@ -213,7 +213,7 @@ Alternatively there are other possible sources like the https://custom.ardupilot
     sudo systemctl enable arduplane.service
     sudo reboot
 
-Your BBBlue is now ready to connect to a Ground Control Station (e.g. `MissionPlanner <https://ardupilot.org/planner/docs/mission-planner-installation.html>`__ or  `QGroundControl <http://qgroundcontrol.com/>`__ )
+Your BBBlue is now ready to connect to a Ground Control Station (e.g. :ref:`MissionPlanner <planner:mission-planner-installation>` or  `QGroundControl <http://qgroundcontrol.com/>`__ )
 
 When establishing a connection select UDP on port 14550.
 
@@ -623,7 +623,7 @@ More Links
 - `Blog post announcing support <https://discuss.ardupilot.org/t/beaglebone-blue-released-linux-enabled-autopilot-for-80/15772>`__
 - `BeagleBone recommended accessories page <https://github.com/beagleboard/beaglebone-blue/wiki/Accessories>`__
 - `Mirkix's instructions on loading Copter to BeagleBone Blue <https://github.com/mirkix/ardupilotblue>`__
-- `Building ArduPilot for BeagleBone Black on Linux — Dev documentation <https://ardupilot.org/dev/docs/building-for-beaglebone-black-on-linux.html#building-for-beaglebone-black-on-linux>`__
+- :ref:`Building ArduPilot for BeagleBone Black on Linux — Dev documentation <dev:building-for-beaglebone-black-on-linux>`
 - `Robot Control Library: Networking WiFi <https://beagleboard.org/static/librobotcontrol/networking_wifi.html>`__
 - `Setting up the BeagleBoneBlue for the first time – muonic <https://muonic.wordpress.com/2019/04/09/setting-up-the-beagleboneblue-for-the-first-time/>`__
 - `Beagleboard:BeagleBoneBlack Debian - eLinux.org <https://elinux.org/Beagleboard:BeagleBoneBlack_Debian#Flashing_eMMC>`__

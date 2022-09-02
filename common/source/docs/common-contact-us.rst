@@ -21,7 +21,7 @@ Support
 Development
 ===========
 
-- `Mon/Tue Weekly Meetings on Discord <https://ardupilot.org/dev/docs/ardupilot-discord-server.html>`__
+- :ref:`Mon/Tue Weekly Meetings on Discord <dev:ardupilot-discord-server>`
 - `ArduPilot Discord (live chat) <https://ardupilot.org/discord>`__ live chat for ArduPilot developers (not for support questions)
 
 

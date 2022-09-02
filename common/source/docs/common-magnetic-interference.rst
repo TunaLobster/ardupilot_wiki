@@ -160,7 +160,7 @@ GPS for yaw
 ===========
 
 ArduPilot supports the use of GPS heading information to reduce malfunctions caused by changes in the magnetic field in certain environments.
-  - `Configure GPS for yaw <https://ardupilot.org/copter/docs/common-gps-for-yaw.html>`__
+  - :ref:`Configure GPS for yaw <common-gps-for-yaw>`
   
   .. note::
 

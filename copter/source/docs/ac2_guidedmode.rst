@@ -81,7 +81,7 @@ Bit 	Meaning
 3 	   SetAttitudeTarget_ThrustAsThrust 
 ===    ==========
 
-Bit 3 makes interpretation of SET_ATTITUDE_TARGET MAVLink command's ``thrust`` field as pure thrust from 0 to 1 , instead of a climb rate. See `Commands in Guided Mode <https://ardupilot.org/dev/docs/copter-commands-in-guided-mode.html>`__
+Bit 3 makes interpretation of SET_ATTITUDE_TARGET MAVLink command's ``thrust`` field as pure thrust from 0 to 1 , instead of a climb rate. See :ref:`Commands in Guided Mode <dev:copter-commands-in-guided-mode>`
 
 .. _guided_nogps:
 

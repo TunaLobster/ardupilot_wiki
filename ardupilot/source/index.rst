@@ -146,7 +146,7 @@ Working on the code?  Ask questions of the team in Discord.
 `Developers Guide <https://ardupilot.org/dev/index.html>`__
 All things for those who want to get into the nuts and bolts of ArduPilot development can be found in the Developer Guide.
 
-We have weekly `meeting times <https://ardupilot.org/dev/docs/ardupilot-discord-server.html#ardupilot-discord-server>`__.
+We have weekly :ref:`meeting times <dev:ardupilot-discord-server>`.
 
 We also have `forums <https://discuss.ardupilot.org/>`__
 

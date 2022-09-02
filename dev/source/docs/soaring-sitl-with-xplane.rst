@@ -97,7 +97,7 @@ Setting up ArduPlane SITL
 
 #. **Install** `Mission Planner <https://firmware.ardupilot.org/Tools/MissionPlanner/MissionPlanner-latest.msi>`_. 
 
-   Mission Planner is the ground control station we will use to monitor the simulation, control the virtual aircraft's flight modes, load flight routes/missions, etc. More info on it is available `here <https://ardupilot.org/planner/docs/mission-planner-overview.html>`_. 
+   Mission Planner is the ground control station we will use to monitor the simulation, control the virtual aircraft's flight modes, load flight routes/missions, etc. More info on it is available :ref:`here <planner:mission-planner-overview.html>`.
 
    |br|
 
@@ -175,7 +175,7 @@ Running soaring SITL with X-Plane
 
    |br|
    
-#. **Set** `ArduPilot's parameters <https://ardupilot.org/copter/docs/parameters.html>`_ **for the chosen RC sailplane.**
+#. **Set** :ref:`ArduPilot's parameters <plane:parameters>` **for the chosen RC sailplane.**
 
    *This step needs to be done only the first time you run SITL after (re-)building ArduPlane.*
    

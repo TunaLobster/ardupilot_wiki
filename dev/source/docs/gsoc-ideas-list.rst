@@ -44,9 +44,9 @@ Rover AutoTune
 - Level of Difficulty: Hard
 - Expected Outcome: Autotune mode added that automatically calculates the frame limits, speed control gains and steering control gains for `Ackermann <https://ardupilot.org/rover/docs/rover-motor-and-servo-connections.html#separate-steering-and-throttle>`__ and `skid steering vehicles <https://ardupilot.org/rover/docs/rover-motor-and-servo-connections.html#skid-steering>`__.
 
-This project involves `adding a new AutoTune mode to the Rover firmware <https://ardupilot.org/dev/docs/rover-adding-a-new-drive-mode.html>`__ to calculate the frame limits, speed control and steering control gains.  This is essentially an automated version of the manual tuning process documented in `this section of the Rover wiki <https://ardupilot.org/rover/docs/rover-first-drive.html>`__.
+This project involves :ref:`adding a new AutoTune mode to the Rover firmware <dev:rover-adding-a-new-drive-mode>` to calculate the frame limits, speed control, and steering control gains. This is essentially an automated version of the manual tuning process documented in :ref:`this section of the Rover wiki <rover:rover-first-drive>`.
 
-Similar to `Copter's autotune mode <https://ardupilot.org/copter/docs/autotune.html>`__ this new mode should include a state machine that provides various throttle and steering outputs and then monitors the response by checking the AHRS/EKF outputs.
+Similar to :ref:`Copter's autotune mode <copter:autotune>` this new mode should include a state machine that provides various throttle and steering outputs and then monitors the response by checking the AHRS/EKF outputs.
 
 The list of parameters that should be tuned includes:
 
@@ -69,7 +69,7 @@ Rover/Boat automatic docking
 - Level of Difficulty: Medium
 - Expected Outcome: control mode added that autonomously maneuvers a car or boat to stop directly infront of a visual target
 
-This project involves `adding a new control mode to the Rover firmware <https://ardupilot.org/dev/docs/rover-adding-a-new-drive-mode.html>`__ to maneuver a car or boat to within cm of a visual target.  In many ways this is similar to `Copter's precision landing <https://ardupilot.org/copter/docs/precision-landing-with-irlock.html>`__ feature and it is likely that the `AC_PrecLand library <https://github.com/ArduPilot/ardupilot/tree/master/libraries/AC_PrecLand>`__ can be re-used to estimate where the target is.  The expected control outputs will be desired speed and turn rate.
+This project involves :ref:`adding a new control mode to the Rover firmware <dev:rover-adding-a-new-drive-mode>` to maneuver a car or boat to within cm of a visual target. In many ways this is similar to :ref:`Copter's precision landing <copter:precision-landing-with-irlock>` feature and it is likely that the `AC_PrecLand library <https://github.com/ArduPilot/ardupilot/tree/master/libraries/AC_PrecLand>`__ can be re-used to estimate where the target is.  The expected control outputs will be desired speed and turn rate.
 
 As a minimum we should add support for `Ackermann <https://ardupilot.org/rover/docs/rover-motor-and-servo-connections.html#separate-steering-and-throttle>`__ and `skid steering vehicles <https://ardupilot.org/rover/docs/rover-motor-and-servo-connections.html#skid-steering>`__ but better performance can probably be achieved using `omni vehicles <https://ardupilot.org/rover/docs/rover-motor-and-servo-connections.html#omni-vehicles>`__ which can move laterally.
 
@@ -119,7 +119,7 @@ Update ROS integration for Non-GPS navigation and off-board path-planning
 - Expected Size: 175h or 350h
 - Level of Difficulty: Medium
 
-ArduPilot can be `integrated with ROS <https://ardupilot.org/dev/docs/ros.html>`__ both for `Non-GPS position estimation <https://ardupilot.org/dev/docs/ros-cartographer-slam.html>`__ and `object avoidance <https://ardupilot.org/dev/docs/ros-object-avoidance.html>`__.  This project aims to verify and update the instructions for these two features.
+ArduPilot can be :ref:`integrated with ROS <dev:ros>` both for :ref:`Non-GPS position estimation <dev:ros-cartographer-slam>` and :ref:`object avoidance <dev:ros-object-avoidance>`.  This project aims to verify and update the instructions for these two features.
 
 Once the above two items are complete, if time permits the next task would be to integrate the offboard object avoidance with ArduPilot Auto mode.  This involves ArduPilot maintaining the final target but then sending it at 1hz (or faster) to ROS's offboard path planning algorithm via mavros.  This will primarily require updating mavros.
 
@@ -196,7 +196,7 @@ In 2019, students successfully completed these projects:
 
 In 2018, students successfully completed these projects:
 
-- `BalanceBot <https://ardupilot.org/rover/docs/balance_bot-home.html>`__
+- :ref:`BalanceBot <rover:balance_bot-home>`
 - RedTail integration with ArduPilot
 - Live video improvements for APSync
 

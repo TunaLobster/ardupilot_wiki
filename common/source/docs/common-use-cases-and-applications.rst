@@ -35,7 +35,7 @@ Use Cases
 .. toctree::
     :maxdepth: 1
 
-    3d Mapping <common-3d-mapping>
+    3D Mapping <common-3d-mapping>
     
 .. image:: ../../../images/case-skymapper.jpg
 
@@ -44,12 +44,9 @@ Use Cases
 
     First Person View (FPV) <common-fpv-first-person-view>
     Multi-Vehicle Flying <common-multi-vehicle-flying>
-    
-- `Crop Spraying <https://github.com/ArduPilot/ardupilot_wiki/edit/master/copter/source/docs/sprayer.rst>`__
-
-- `Non-GPS Positioning Systems <https://ardupilot.org/copter/docs/common-non-gps-navigation-landing-page.html>`__
-    
-- `Indoor Flying <https://ardupilot.org/copter/docs/indoor-flying>`__
+    Crop Spraying <https://ardupilot.org/copter/docs/sprayer.html>
+    Non-GPS Positioning Systems <https://ardupilot.org/copter/docs/common-non-gps-navigation-landing-page.html>
+    Indoor Flying <https://ardupilot.org/copter/docs/indoor-flying>
 
 Vehicle Types
 =============
