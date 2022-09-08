@@ -78,7 +78,7 @@ Common Problems
    close to the receiver) or by ESC problems that may be resolved by
    :ref:`QuadPlane ESC Calibration <quadplane-esc-calibration>`.
 -  sudden flips during flight.  This is nearly always caused by
-   :ref:`mechanical failures <copter:common-diagnosing-problems-using-logs_mechanical_failures>`
+   :ref:`mechanical failures <common-diagnosing-problems-using-logs_mechanical_failures>`
    of the motor or ESCs.
 
 Hover Throttle

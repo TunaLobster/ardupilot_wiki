@@ -8,9 +8,9 @@ This article explains how to check if the Pixhawk has booted properly.
 
 The following tests can help you determine if boot has failed, and possible causes:
 
--  Check the Pixhawk :ref:`LEDs <copter:common-leds-pixhawk>`
+-  Check the Pixhawk :ref:`LEDs <common-leds-pixhawk>`
    and
-   :ref:`Sounds <copter:common-sounds-pixhawkpx4>`
+   :ref:`Sounds <common-sounds-pixhawkpx4>`
    as these can immediately confirm a successful boot. If boot fails,
    these can broadly indicate the point of failure.
 -  Check that the board has appropriate ArduPilot firmware installed.

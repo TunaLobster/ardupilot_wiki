@@ -4,7 +4,7 @@
 Copter Object Avoidance
 =======================
 
-ArduCopter, from release 3.5, supports object avoidance using a :ref:`Lightware SF40C <copter:common-lightware-sf40c-objectavoidance>`, :ref:`TeraRanger Tower <copter:common-teraranger-tower-objectavoidance>`  or with any sensor capable of providing distances using the MAVLink `DISTANCE_SENSOR <https://mavlink.io/en/messages/common.html#DISTANCE_SENSOR>`__ message.
+ArduCopter, from release 3.5, supports object avoidance using a :ref:`Lightware SF40C <common-lightware-sf40c-objectavoidance>`, :ref:`TeraRanger Tower <common-teraranger-tower-objectavoidance>`  or with any sensor capable of providing distances using the MAVLink `DISTANCE_SENSOR <https://mavlink.io/en/messages/common.html#DISTANCE_SENSOR>`__ message.
 This page describes how the object avoidance feature works and how "proximity sensors" should provide data into ArduPilot.
 
 Avoidance in Loiter

@@ -4,7 +4,7 @@
 Move a Servo
 ============
 
-This page explains how MAVLink can be used by a ground station or companion computer to move a servo.  The :ref:`user wiki pages for servos is here <copter:common-servo-landingpage>`.
+This page explains how MAVLink can be used by a ground station or companion computer to move a servo.  The :ref:`user wiki pages for servos is here <common-servo-landingpage>`.
 
 Set the Servo position with MAV_CMD_DO_SET_SERVO
 ------------------------------------------------

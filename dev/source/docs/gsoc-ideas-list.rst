@@ -86,7 +86,7 @@ Boat object avoidance with Luxonis AI camera
 - Level of Difficulty: Medium
 - Expected Outcome: Autonomous boats is able to avoid other boats, rocks and floating debris using an Luxonis AI camera
 
-This project involves training and integrating a Luxonis AI camera to recognise rocks, floating debris and other boats and then send the estimated position of these obstacles to ArduPilot's existing :ref:`object avoidance features <rover:common-object-avoidance-landing-page>` (Simple avoidance, Bendy Ruler and Dijkstra's/A-Star) so that the vehicle can stop and/or path plan around them.
+This project involves training and integrating a Luxonis AI camera to recognise rocks, floating debris and other boats and then send the estimated position of these obstacles to ArduPilot's existing :ref:`object avoidance features <common-object-avoidance-landing-page>` (Simple avoidance, Bendy Ruler and Dijkstra's/A-Star) so that the vehicle can stop and/or path plan around them.
 
 Much of the development can be completed using one of the :ref:`ArduPilot supported simulators <simulation-2>` but funding will also be provided for the required hardware which will include a `Luxonis AI camera <https://shop.luxonis.com/products/oak-d-iot-75>`__, companion computer, autopilot and a car or boat frame.
 

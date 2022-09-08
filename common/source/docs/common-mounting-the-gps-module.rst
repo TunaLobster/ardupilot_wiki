@@ -8,10 +8,10 @@ Archived: GPS Module (External)
 
    **ARCHIVED ARTICLE**
 
-   Almost everyone has moved to :ref:`GPS+compass module <copter:common-installing-3dr-ublox-gps-compass-module>`.
+   Almost everyone has moved to :ref:`GPS+compass module <common-installing-3dr-ublox-gps-compass-module>`.
 
 This page covers the mounting of GPS without an on-board compass. See
-:ref:`this page <copter:common-installing-3dr-ublox-gps-compass-module>`
+:ref:`this page <common-installing-3dr-ublox-gps-compass-module>`
 for the GPS+compass module.
 
 Tips on mounting the GPS module

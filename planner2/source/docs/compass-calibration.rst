@@ -49,5 +49,5 @@ PX4 and Pixhawk, values may be greater than 150 and less than -150.
 4 Advanced compass calibration (copters)
 ========================================
 
-For more information about :ref:`advanced compass calibration for copters, click here <copter:common-compass-setup-advanced_compassmot_compensation_for_interference_from_the_power_wires_escs_and_motors>`.
-For a general discussion of :ref:`ways to reduce magnetic interference on your copter, click here. <copter:common-magnetic-interference>`
+For more information about :ref:`advanced compass calibration for copters, click here <common-compass-setup-advanced_compassmot_compensation_for_interference_from_the_power_wires_escs_and_motors>`.
+For a general discussion of :ref:`ways to reduce magnetic interference on your copter, click here. <common-magnetic-interference>`

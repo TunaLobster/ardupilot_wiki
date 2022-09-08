@@ -61,10 +61,10 @@ function of each:
 
 Here is where you will find other details:
 
-:ref:`Flash Data Logs <planner:common-downloading-and-analyzing-data-logs-in-mission-planner>` (specific
+:ref:`Flash Data Logs <common-downloading-and-analyzing-data-logs-in-mission-planner>` (specific
 to APM)  How to download and analyze  Data Flash logs.
 
-:ref:`Sensor Testing <copter:common-sensor-testing>`:
+:ref:`Sensor Testing <common-sensor-testing>`:
 (Specific to APM)
 
 .. toctree::

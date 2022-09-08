@@ -4,7 +4,7 @@
 Sensor Drivers
 ==============
 
-ArduPilot supports a wide variety of sensors from many different manufacturers.  One clear example of this can be seen in the :ref:`list of range finders <copter:common-rangefinder-landingpage>` (aka sonars, lidars).
+ArduPilot supports a wide variety of sensors from many different manufacturers.  One clear example of this can be seen in the :ref:`list of range finders <common-rangefinder-landingpage>` (aka sonars, lidars).
 This page attempts to explain how sensor drivers are written and integrated into the vehicle code.
 
 Supported Protocols

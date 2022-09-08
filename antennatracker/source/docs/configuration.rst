@@ -31,7 +31,7 @@ Some commonly used values include:
 Accelerometer Calibration
 =========================
 
-The :ref:`accelerometer calibration <copter:common-accelerometer-calibration>`
+The :ref:`accelerometer calibration <common-accelerometer-calibration>`
 is the same as for Copter meaning the flight controller board should be
 connected to the Mission planner and then the **Initial Setup \|
 Mandatory Hardware \| Accel Calibration** routine should be run which
@@ -62,7 +62,7 @@ Some more commonly used values include:
 Compass Calibration
 ===================
 
-The :ref:`compass calibration <copter:common-compass-calibration-in-mission-planner>`
+The :ref:`compass calibration <common-compass-calibration-in-mission-planner>`
 can be done using the same method as Copter.  Open the Mission Planner's
 Initial Setup >> Mandatory Hardware >> Compass screen and push the "Live
 Calibration" button and rotate the board until the mission planner says

@@ -27,7 +27,7 @@ and `zytrax.com <http://www.zytrax.com/tech/wireless/calc.htm>`__) is:
 -  increasing the antenna gain by 6dBi (i.e. from 2dBi to 8dBi) will double the range
 -  increasing the transmitter power by 4x (i.e. from 20mW to 80mW) will double the range
 
-The standard :ref:`3DR radio <copter:common-sik-telemetry-radio>` comes with a 2dBi antenna.
+The standard :ref:`3DR radio <common-sik-telemetry-radio>` comes with a 2dBi antenna.
 
 Where to buy
 ============

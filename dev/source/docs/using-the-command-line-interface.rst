@@ -244,7 +244,7 @@ to match your hardware
    hours)
 -  **sonar**: Enable sonar sensor. Sensor hooks to the "pitot" port
    which is an analog input (on, off). See installation details
-   :ref:`here <copter:common-rangefinder-landingpage>`.
+   :ref:`here <common-rangefinder-landingpage>`.
 -  **compass**: Enables the compass (on, off)
 -  **declination**: Sets your local declination value -- lookup online
    for accuracy (decimal degrees)
@@ -297,6 +297,6 @@ Logs Menu
 "logs" menu commands:
 =====================
 
-See the :ref:`datalogging page <copter:common-downloading-and-analyzing-data-logs-in-mission-planner>`
+See the :ref:`datalogging page <common-downloading-and-analyzing-data-logs-in-mission-planner>`
 to better understand how to dump logs and how to set the types of data
 you want to record.

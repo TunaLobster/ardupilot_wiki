@@ -4,7 +4,7 @@
 Mission Upload / Download
 =========================
 
-This page explains how MAVLink can be used to upload and download missions (executed in :ref:`Auto mode <copter:auto-mode>`) and perform some other mission related actions.  The user wiki page for :ref:`Mission Planning is here <copter:common-mission-planning>`.
+This page explains how MAVLink can be used to upload and download missions (executed in :ref:`Auto mode <copter:auto-mode>`) and perform some other mission related actions.  The user wiki page for :ref:`Mission Planning is here <common-mission-planning>`.
 
 Mission Related Messages
 ------------------------

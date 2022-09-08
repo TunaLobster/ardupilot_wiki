@@ -8,7 +8,7 @@ This page covers how ArduPilot interacts with a MAVLink enabled gimbal.
 It is meant more as a guide on how gimbal manufacturers can make their
 gimbals work with ArduPilot with minimum code changes to ArduPilot .
 
-The :ref:`SToRM32 gimbal <copter:common-storm32-gimbal>` is a
+The :ref:`SToRM32 gimbal <common-storm32-gimbal>` is a
 good reference as it supports MAVLink.
 
 Messages the gimbal should support

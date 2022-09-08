@@ -301,7 +301,7 @@ Launch Copter with Lidar using
 
     sim_vehicle.py -v ArduCopter -f airsim-copter --add-param-file=libraries/SITL/examples/Airsim/lidar.parm --console --map
 
-By default, :ref:`BendyRuler Object Avoidance <copter:common-oa-bendyruler>` is used with the Lidar, the related parameters can be seen on the Wiki page and should be modified as required in the ``lidar.parm`` file.
+By default, :ref:`BendyRuler Object Avoidance <common-oa-bendyruler>` is used with the Lidar, the related parameters can be seen on the Wiki page and should be modified as required in the ``lidar.parm`` file.
 
 You can enable the visualisation of Lidar points in the AirSim viewport by setting ``DrawDebugPoints`` to ``true`` in the Lidar sensor settings. Note that this can reduce FPS by a lot and maybe even cause memory problems and crash in releases ``v1.3.1`` and earlier.
 
@@ -311,7 +311,7 @@ You can enable the visualisation of Lidar points in the AirSim viewport by setti
 Using Rangefinder
 ^^^^^^^^^^^^^^^^^
 
-Rangefinders in ArduPilot are called Distance Sensors in AirSim. See `AirSim's Sensors page <https://github.com/microsoft/AirSim/blob/master/docs/sensors.md#distance-sensor>`__ for details, and :ref:`Rangefinder Setup <copter:common-rangefinder-landingpage>` for ArduPilot side information.
+Rangefinders in ArduPilot are called Distance Sensors in AirSim. See `AirSim's Sensors page <https://github.com/microsoft/AirSim/blob/master/docs/sensors.md#distance-sensor>`__ for details, and :ref:`Rangefinder Setup <common-rangefinder-landingpage>` for ArduPilot side information.
 
 Some example settings and parameters are shown below, to create a forward and downward-facing rangefinder. Note that only sensor settings are present, which can be easily inserted inplace of the ``Sensors`` element in the Lidar example above.
 

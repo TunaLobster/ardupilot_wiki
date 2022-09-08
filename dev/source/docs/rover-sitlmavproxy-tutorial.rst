@@ -131,7 +131,7 @@ skip to the second waypoint, and *loop* the mission:
 
 .. note::
 
-   Rover will only run :ref:`commands it supports <rover:common-mavlink-mission-command-messages-mav_cmd_commands_supported_by_rover>`
+   Rover will only run :ref:`commands it supports <common-mavlink-mission-command-messages-mav_cmd_commands_supported_by_rover>`
    (others are ignored). 
 
 The :ref:`MAVProxy Waypoints documentation <mavproxy:mavproxy-waypoints>`

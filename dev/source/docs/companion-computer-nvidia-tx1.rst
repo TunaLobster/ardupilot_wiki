@@ -112,6 +112,6 @@ Official instructions from NVidia on flashing images can be found `here <https:/
 Notes if using ZED camera
 -------------------------
 
-If you are using the `StereoLabs <https://www.stereolabs.com/>`__ :ref:`ZED camera <copter:common-zed>` then the TX1 will need to be powered up once with the ethernet cable plugged in so that it has access to the internet in order to download the camera's factory calibration.
+If you are using the `StereoLabs <https://www.stereolabs.com/>`__ :ref:`ZED camera <common-zed>` then the TX1 will need to be powered up once with the ethernet cable plugged in so that it has access to the internet in order to download the camera's factory calibration.
 
 If using the AUVidea J120 board, the ZED camera may need to be plugged into the lower USB port to work correctly.

@@ -19,7 +19,7 @@ The gimbal's attitude (in body-frame Quaternion form) can be monitored by decodi
 
 .. note::
 
-    The :ref:`user wiki pages for gimbals is here <copter:common-cameras-and-gimbals>`.
+    The :ref:`user wiki pages for gimbals is here <common-cameras-and-gimbals>`.
 
 Set the mode with MAV_CMD_DO_MOUNT_CONTROL
 ------------------------------------------

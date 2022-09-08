@@ -40,11 +40,11 @@ Connect a 2nd pair of radios
 .. image:: ../images/AntennaTracker_ConnectToGCS_Radio.jpg
     :target: ../_images/AntennaTracker_ConnectToGCS_Radio.jpg
 
-A second pair of radios (or even a :ref:`bluetooth data link <copter:common-mission-planner-bluetooth-connectivity>`)
+A second pair of radios (or even a :ref:`bluetooth data link <common-mission-planner-bluetooth-connectivity>`)
 can be used to connect the Antenna Tracker controller to the PC running
 the ground station.  
 
-If using a :ref:`SIK radio <copter:common-sik-telemetry-radio>`
+If using a :ref:`SIK radio <common-sik-telemetry-radio>`
 the Net IDs of the radios connecting the Antenna Tracker to the PC
 should be different than the Net IDs for the radio connecting the vehicle
 to the Antenna Tracker. Net IDs can be changed by :ref:`configuring <common-configuring-a-telemetry-radio-using-mission-planner>` them in Mission Planner.

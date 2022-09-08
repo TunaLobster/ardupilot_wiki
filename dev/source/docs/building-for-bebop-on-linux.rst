@@ -356,7 +356,7 @@ Flying
 ======
 
 FreeFlight 3 is not compatible with ArduPilot and you will therefore
-have to use :ref:`one of the supported GCS <copter:common-choosing-a-ground-station>`.
+have to use :ref:`one of the supported GCS <common-choosing-a-ground-station>`.
 Connect to the Bebop via Wi-Fi and just start your GCS, it should
 connect automatically if you setup the link to UDP (in case it is
 needed).
@@ -367,7 +367,7 @@ flash an alternative version in order to be able to control your Bebop
 with it (information about that is coming soon...).
 
 In order to pilot the Bebop manually, Mission Planner GCS users can use
-a :ref:`gamepad as described here <copter:common-joystick>`. 
+a :ref:`gamepad as described here <common-joystick>`. 
 Alternatively use the RCOutput UDP interface on port 777 on the Bebop,
 with a Linux PC (or board type Raspberry Pi) and a USB gamepad.
 

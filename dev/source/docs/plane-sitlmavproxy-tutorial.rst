@@ -310,7 +310,7 @@ Creating the fence is very similar to creating a waypoint mission:
       MAVProxy: Fence Breach shown on Console and Map
 
 Instead of flying to the centre of the fence you can instead add a
-:ref:`rally point <plane:common-rally-points>`
+:ref:`rally point <common-rally-points>`
 to the map and fly to it by enabling the parameter ``FENCE_RET_RALLY``.
 
 Testing the vehicle

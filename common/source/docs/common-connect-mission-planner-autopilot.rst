@@ -18,7 +18,7 @@ Setting up the connection
 To establish a connection you must first choose the communication
 method/channel you want to use, and then set up the physical hardware
 and Windows device drivers. You can connect the PC and autopilot using
-USB cables, :ref:`Telemetry Radios <copter:common-telemetry-landingpage>`,
+USB cables, :ref:`Telemetry Radios <common-telemetry-landingpage>`,
 :ref:`Bluetooth <common-mission-planner-bluetooth-connectivity_detailed_connecting_with_mission_planner>`,
 IP connections etc.
 
