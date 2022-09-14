@@ -235,7 +235,8 @@ def check_build(site):
     if platform.system() == "Windows":
         print("Skipping check_build on windows")
         return
-    for wiki in ALL_WIKIS:
+    print(f"checking these sites: {site}")
+    for wiki in ALL_WIKIS if site is None else [f"{site}"]:
         if wiki in ['common', 'frontend']:
             continue
         index_html = os.path.join(wiki, "build", "html", "index.html")
@@ -283,7 +284,8 @@ def copy_build(site, destdir):
             error('Error moving output')
 
         # copy jquery
-        shutil.copy('js/jquery-3.2.1.min.js', '%s/_static/jquery-3.2.1.min.js' % targetdir)
+        os.makedirs('%s/_static' % targetdir, exist_ok=True)
+        shutil.copy(os.path.join('js', 'jquery-3.2.1.min.js'), os.path.join(targetdir, '_static', 'jquery-3.2.1.min.js'))
 
         # delete the old directory
         print('DEBUG: removing %s' % olddir)
