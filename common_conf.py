@@ -35,7 +35,7 @@ html_context = {'target': '/'}
 intersphinx_mapping = {'copter': (intersphinx_base_url % 'copter',
                                   None),
                        'plane': (intersphinx_base_url % 'plane',
-                                  None),  # noqa: E127
+                                 None),  # noqa: E127
                        'rover': (intersphinx_base_url % 'rover',
                                   None),  # noqa: E127
                        'planner': (intersphinx_base_url % 'planner',
